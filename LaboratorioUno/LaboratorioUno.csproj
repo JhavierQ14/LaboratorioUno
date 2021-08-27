@@ -207,6 +207,8 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Notas\Index.cshtml" />
+    <Content Include="Views\Notas\Resultado.cshtml" />
+    <Content Include="Views\Notas\ListadoEstudiantes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

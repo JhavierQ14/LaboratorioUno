@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Resultado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Resultado</h2>
+<h4>Estudiante @ViewBag.nombre</h4>
+<br />
+
+<table class="table table-striped">
+    <thead>
+
+    <th>
+        Periodo
+    </th>
+    <th>
+        Laboratorio
+    </th>
+    <th>
+        Parcial
+    <th>
+        Total
+    </th>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td> I </td>
+            <td>@ViewBag.lab1</td>
+            <td>@ViewBag.par1</td>
+            <td>@ViewBag.total1</td>
+        </tr>
+        <tr>
+            <td> II </td>
+            <td>@ViewBag.lab2</td>
+            <td>@ViewBag.par2</td>
+            <td>@ViewBag.total2</td>
+        </tr>
+        <tr>
+            <td> III </td>
+            <td>@ViewBag.lab3</td>
+            <td>@ViewBag.par3</td>
+            <td>@ViewBag.total3</td>
+        </tr>
+    </tbody>
+</table>
+
+<br />
+
+
+
+@Html.ActionLink("Estudiantes", "ListadoEstudiantes", new { @class = "btn btn-success" })
+
+
